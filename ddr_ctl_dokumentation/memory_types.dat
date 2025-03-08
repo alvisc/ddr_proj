@@ -1,0 +1,43 @@
+[Micron MT46V16M16TG-6T]
+    description    = Micron 256Mbit x16 DDR333 chip
+    mem_type       = ddr_sdram
+    clock_pairs    = 1
+    chipselects    = 1
+    bankbits       = 2
+    width          = 16
+    colbits        = 9
+    rowbits        = 13
+    dq_per_dqs     = 8
+    pch_bit        = 10
+    reg_dimm       = 0
+    cas_latency    = 2.5
+    clock_speed    = 166.667
+
+    trcd           = 15
+    tras           = 42
+    twtr           = 1
+    twr            = 15
+    trp            = 15
+    trfc           = 72
+    tmrd           = 12
+    trefi          = 7.8
+    tinit_time     = 200
+
+    tDQSQ          =   450
+    tQHS           =   550
+    tDQSCK         =   600
+    tAC            =   700
+    fmax_at_cl5    =   0
+    fmax_at_cl4    =     0
+    fmax_at_cl3    =   167 
+    fmax_at_cl25   =   167
+    fmax_at_cl2    =   134
+    tCK_MAX        = 13000
+    tDS            =    450
+    tDH            =    450
+    tDQSS_MIN      =   0.75
+    tDQSS_MAX      =   1.25
+
+    dq_pin_load    = 4
+    cmd_pin_load   = 2
+    clk_pin_load   = 2
