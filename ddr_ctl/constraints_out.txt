@@ -1,0 +1,39 @@
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Shell
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Copyright (C) 1991-2013 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Sat Mar  8 16:10:27 2025
+Info: Command: quartus_sh -t /tmp/ddr1857155859286185727.tcl
+script running in /home/ax/fpga/_DDR_RAM/ddr_proj/ddr_ctl/iptb_ddr_sdram_controller_temp4386681995185351095
+dat_path /home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat
+ -		 Reading file:		ddr_ctl_ddr_settings.txt..
+Good old DDIO's
+
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/devices.dat..
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/ep2c35_f484_x8_v02.dat..
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/lcell_placement_cycloneii_0_v02.dat..
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/hdl_path_names_v03.dat..
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/ddr_sdram_iotype.dat..
+ - INFO: IO dat file '/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/ddr_sdram_iotype_cycloneii.dat' was not found. It may not exists for this device family
+ ------------------------------------
+
+ -		 Reading file:		/home/ax/altera/13.0sp1web/ip/altera/ddr_ddr2_sdram/constraints/dat/hdl_path_names_cycloneii_v03.dat..
+ - All Done.
+Info (23030): Evaluation of Tcl script /tmp/ddr1857155859286185727.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 165 megabytes
+    Info: Processing ended: Sat Mar  8 16:10:27 2025
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00

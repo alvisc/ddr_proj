@@ -1,0 +1,2 @@
+NOTE:     Speed Grade c8 used for analysis
+NOTE:     Memory device can operate at 100.00 MHz with a lower CL than 2.5

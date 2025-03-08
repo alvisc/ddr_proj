@@ -1,0 +1,479 @@
+TimeQuest Timing Analyzer report for ddr_proj
+Sat Mar  8 16:31:11 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Slow Model Minimum Pulse Width: 'altera_reserved_tck'
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Fast Model Setup Summary
+ 15. Fast Model Hold Summary
+ 16. Fast Model Recovery Summary
+ 17. Fast Model Removal Summary
+ 18. Fast Model Minimum Pulse Width Summary
+ 19. Fast Model Minimum Pulse Width: 'altera_reserved_tck'
+ 20. Propagation Delay
+ 21. Minimum Propagation Delay
+ 22. Multicorner Timing Analysis Summary
+ 23. Progagation Delay
+ 24. Minimum Progagation Delay
+ 25. Clock Transfers
+ 26. Report TCCS
+ 27. Report RSKM
+ 28. Unconstrained Paths
+ 29. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; ddr_proj                                                          ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C35F484C8                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                    ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; Clock Name          ; Type ; Period  ; Frequency ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                 ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; altera_reserved_tck ; Base ; 100.000 ; 10.0 MHz  ; 0.000 ; 50.000 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { altera_reserved_tck } ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------------+
+; Slow Model Minimum Pulse Width Summary       ;
++---------------------+--------+---------------+
+; Clock               ; Slack  ; End Point TNS ;
++---------------------+--------+---------------+
+; altera_reserved_tck ; 97.223 ; 0.000         ;
++---------------------+--------+---------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Slow Model Minimum Pulse Width: 'altera_reserved_tck'                                                       ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; Slack  ; Actual Width ; Required Width ; Type      ; Clock               ; Clock Edge ; Target              ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; 97.223 ; 100.000      ; 2.777          ; Port Rate ; altera_reserved_tck ; Rise       ; altera_reserved_tck ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+
+
++------------------------------------------------------------------+
+; Propagation Delay                                                ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 5.364 ; 5.364 ; 5.364 ; 5.364 ;
+; clock_source ; clk_to_sdram_n[0] ; 4.889 ; 4.889 ; 4.889 ; 4.889 ;
+; clock_source ; ddr_dm[0]         ; 4.939 ; 4.939 ; 4.939 ; 4.939 ;
+; clock_source ; ddr_dm[1]         ; 4.931 ; 4.931 ; 4.931 ; 4.931 ;
+; clock_source ; ddr_dq[0]         ; 4.966 ; 4.966 ; 4.966 ; 4.966 ;
+; clock_source ; ddr_dq[1]         ; 4.963 ; 4.963 ; 4.963 ; 4.963 ;
+; clock_source ; ddr_dq[2]         ; 4.961 ; 4.961 ; 4.961 ; 4.961 ;
+; clock_source ; ddr_dq[3]         ; 4.953 ; 4.953 ; 4.953 ; 4.953 ;
+; clock_source ; ddr_dq[4]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[5]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[6]         ; 4.935 ; 4.935 ; 4.935 ; 4.935 ;
+; clock_source ; ddr_dq[7]         ; 4.997 ; 4.997 ; 4.997 ; 4.997 ;
+; clock_source ; ddr_dq[8]         ; 4.943 ; 4.943 ; 4.943 ; 4.943 ;
+; clock_source ; ddr_dq[9]         ; 4.948 ; 4.948 ; 4.948 ; 4.948 ;
+; clock_source ; ddr_dq[10]        ; 4.945 ; 4.945 ; 4.945 ; 4.945 ;
+; clock_source ; ddr_dq[11]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[12]        ; 4.970 ; 4.970 ; 4.970 ; 4.970 ;
+; clock_source ; ddr_dq[13]        ; 4.954 ; 4.954 ; 4.954 ; 4.954 ;
+; clock_source ; ddr_dq[14]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[15]        ; 5.337 ; 5.337 ; 5.337 ; 5.337 ;
+; clock_source ; ddr_dqs[0]        ; 4.944 ; 4.944 ; 4.944 ; 4.944 ;
+; clock_source ; ddr_dqs[1]        ; 5.366 ; 5.366 ; 5.366 ; 5.366 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------+
+; Minimum Propagation Delay                                        ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 5.364 ; 5.364 ; 5.364 ; 5.364 ;
+; clock_source ; clk_to_sdram_n[0] ; 4.889 ; 4.889 ; 4.889 ; 4.889 ;
+; clock_source ; ddr_dm[0]         ; 4.939 ; 4.939 ; 4.939 ; 4.939 ;
+; clock_source ; ddr_dm[1]         ; 4.931 ; 4.931 ; 4.931 ; 4.931 ;
+; clock_source ; ddr_dq[0]         ; 4.966 ; 4.966 ; 4.966 ; 4.966 ;
+; clock_source ; ddr_dq[1]         ; 4.963 ; 4.963 ; 4.963 ; 4.963 ;
+; clock_source ; ddr_dq[2]         ; 4.961 ; 4.961 ; 4.961 ; 4.961 ;
+; clock_source ; ddr_dq[3]         ; 4.953 ; 4.953 ; 4.953 ; 4.953 ;
+; clock_source ; ddr_dq[4]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[5]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[6]         ; 4.935 ; 4.935 ; 4.935 ; 4.935 ;
+; clock_source ; ddr_dq[7]         ; 4.997 ; 4.997 ; 4.997 ; 4.997 ;
+; clock_source ; ddr_dq[8]         ; 4.943 ; 4.943 ; 4.943 ; 4.943 ;
+; clock_source ; ddr_dq[9]         ; 4.948 ; 4.948 ; 4.948 ; 4.948 ;
+; clock_source ; ddr_dq[10]        ; 4.945 ; 4.945 ; 4.945 ; 4.945 ;
+; clock_source ; ddr_dq[11]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[12]        ; 4.970 ; 4.970 ; 4.970 ; 4.970 ;
+; clock_source ; ddr_dq[13]        ; 4.954 ; 4.954 ; 4.954 ; 4.954 ;
+; clock_source ; ddr_dq[14]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[15]        ; 5.337 ; 5.337 ; 5.337 ; 5.337 ;
+; clock_source ; ddr_dqs[0]        ; 4.944 ; 4.944 ; 4.944 ; 4.944 ;
+; clock_source ; ddr_dqs[1]        ; 5.366 ; 5.366 ; 5.366 ; 5.366 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------------+
+; Fast Model Minimum Pulse Width Summary       ;
++---------------------+--------+---------------+
+; Clock               ; Slack  ; End Point TNS ;
++---------------------+--------+---------------+
+; altera_reserved_tck ; 97.778 ; 0.000         ;
++---------------------+--------+---------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Fast Model Minimum Pulse Width: 'altera_reserved_tck'                                                       ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; Slack  ; Actual Width ; Required Width ; Type      ; Clock               ; Clock Edge ; Target              ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; 97.778 ; 100.000      ; 2.222          ; Port Rate ; altera_reserved_tck ; Rise       ; altera_reserved_tck ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+
+
++------------------------------------------------------------------+
+; Propagation Delay                                                ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 2.024 ; 2.024 ; 2.024 ; 2.024 ;
+; clock_source ; clk_to_sdram_n[0] ; 1.889 ; 1.889 ; 1.889 ; 1.889 ;
+; clock_source ; ddr_dm[0]         ; 1.926 ; 1.926 ; 1.926 ; 1.926 ;
+; clock_source ; ddr_dm[1]         ; 1.933 ; 1.933 ; 1.933 ; 1.933 ;
+; clock_source ; ddr_dq[0]         ; 1.961 ; 1.961 ; 1.961 ; 1.961 ;
+; clock_source ; ddr_dq[1]         ; 1.957 ; 1.957 ; 1.957 ; 1.957 ;
+; clock_source ; ddr_dq[2]         ; 1.955 ; 1.955 ; 1.955 ; 1.955 ;
+; clock_source ; ddr_dq[3]         ; 1.948 ; 1.948 ; 1.948 ; 1.948 ;
+; clock_source ; ddr_dq[4]         ; 1.929 ; 1.929 ; 1.929 ; 1.929 ;
+; clock_source ; ddr_dq[5]         ; 1.930 ; 1.930 ; 1.930 ; 1.930 ;
+; clock_source ; ddr_dq[6]         ; 1.925 ; 1.925 ; 1.925 ; 1.925 ;
+; clock_source ; ddr_dq[7]         ; 1.960 ; 1.960 ; 1.960 ; 1.960 ;
+; clock_source ; ddr_dq[8]         ; 1.932 ; 1.932 ; 1.932 ; 1.932 ;
+; clock_source ; ddr_dq[9]         ; 1.937 ; 1.937 ; 1.937 ; 1.937 ;
+; clock_source ; ddr_dq[10]        ; 1.934 ; 1.934 ; 1.934 ; 1.934 ;
+; clock_source ; ddr_dq[11]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[12]        ; 1.956 ; 1.956 ; 1.956 ; 1.956 ;
+; clock_source ; ddr_dq[13]        ; 1.943 ; 1.943 ; 1.943 ; 1.943 ;
+; clock_source ; ddr_dq[14]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[15]        ; 2.037 ; 2.037 ; 2.037 ; 2.037 ;
+; clock_source ; ddr_dqs[0]        ; 1.944 ; 1.944 ; 1.944 ; 1.944 ;
+; clock_source ; ddr_dqs[1]        ; 2.055 ; 2.055 ; 2.055 ; 2.055 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------+
+; Minimum Propagation Delay                                        ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 2.024 ; 2.024 ; 2.024 ; 2.024 ;
+; clock_source ; clk_to_sdram_n[0] ; 1.889 ; 1.889 ; 1.889 ; 1.889 ;
+; clock_source ; ddr_dm[0]         ; 1.926 ; 1.926 ; 1.926 ; 1.926 ;
+; clock_source ; ddr_dm[1]         ; 1.933 ; 1.933 ; 1.933 ; 1.933 ;
+; clock_source ; ddr_dq[0]         ; 1.961 ; 1.961 ; 1.961 ; 1.961 ;
+; clock_source ; ddr_dq[1]         ; 1.957 ; 1.957 ; 1.957 ; 1.957 ;
+; clock_source ; ddr_dq[2]         ; 1.955 ; 1.955 ; 1.955 ; 1.955 ;
+; clock_source ; ddr_dq[3]         ; 1.948 ; 1.948 ; 1.948 ; 1.948 ;
+; clock_source ; ddr_dq[4]         ; 1.929 ; 1.929 ; 1.929 ; 1.929 ;
+; clock_source ; ddr_dq[5]         ; 1.930 ; 1.930 ; 1.930 ; 1.930 ;
+; clock_source ; ddr_dq[6]         ; 1.925 ; 1.925 ; 1.925 ; 1.925 ;
+; clock_source ; ddr_dq[7]         ; 1.960 ; 1.960 ; 1.960 ; 1.960 ;
+; clock_source ; ddr_dq[8]         ; 1.932 ; 1.932 ; 1.932 ; 1.932 ;
+; clock_source ; ddr_dq[9]         ; 1.937 ; 1.937 ; 1.937 ; 1.937 ;
+; clock_source ; ddr_dq[10]        ; 1.934 ; 1.934 ; 1.934 ; 1.934 ;
+; clock_source ; ddr_dq[11]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[12]        ; 1.956 ; 1.956 ; 1.956 ; 1.956 ;
+; clock_source ; ddr_dq[13]        ; 1.943 ; 1.943 ; 1.943 ; 1.943 ;
+; clock_source ; ddr_dq[14]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[15]        ; 2.037 ; 2.037 ; 2.037 ; 2.037 ;
+; clock_source ; ddr_dqs[0]        ; 1.944 ; 1.944 ; 1.944 ; 1.944 ;
+; clock_source ; ddr_dqs[1]        ; 2.055 ; 2.055 ; 2.055 ; 2.055 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
++--------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                            ;
++----------------------+-------+------+----------+---------+---------------------+
+; Clock                ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++----------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack     ; N/A   ; N/A  ; N/A      ; N/A     ; 97.223              ;
+;  altera_reserved_tck ; N/A   ; N/A  ; N/A      ; N/A     ; 97.223              ;
+; Design-wide TNS      ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
+;  altera_reserved_tck ; N/A   ; N/A  ; N/A      ; N/A     ; 0.000               ;
++----------------------+-------+------+----------+---------+---------------------+
+
+
++------------------------------------------------------------------+
+; Progagation Delay                                                ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 5.364 ; 5.364 ; 5.364 ; 5.364 ;
+; clock_source ; clk_to_sdram_n[0] ; 4.889 ; 4.889 ; 4.889 ; 4.889 ;
+; clock_source ; ddr_dm[0]         ; 4.939 ; 4.939 ; 4.939 ; 4.939 ;
+; clock_source ; ddr_dm[1]         ; 4.931 ; 4.931 ; 4.931 ; 4.931 ;
+; clock_source ; ddr_dq[0]         ; 4.966 ; 4.966 ; 4.966 ; 4.966 ;
+; clock_source ; ddr_dq[1]         ; 4.963 ; 4.963 ; 4.963 ; 4.963 ;
+; clock_source ; ddr_dq[2]         ; 4.961 ; 4.961 ; 4.961 ; 4.961 ;
+; clock_source ; ddr_dq[3]         ; 4.953 ; 4.953 ; 4.953 ; 4.953 ;
+; clock_source ; ddr_dq[4]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[5]         ; 4.937 ; 4.937 ; 4.937 ; 4.937 ;
+; clock_source ; ddr_dq[6]         ; 4.935 ; 4.935 ; 4.935 ; 4.935 ;
+; clock_source ; ddr_dq[7]         ; 4.997 ; 4.997 ; 4.997 ; 4.997 ;
+; clock_source ; ddr_dq[8]         ; 4.943 ; 4.943 ; 4.943 ; 4.943 ;
+; clock_source ; ddr_dq[9]         ; 4.948 ; 4.948 ; 4.948 ; 4.948 ;
+; clock_source ; ddr_dq[10]        ; 4.945 ; 4.945 ; 4.945 ; 4.945 ;
+; clock_source ; ddr_dq[11]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[12]        ; 4.970 ; 4.970 ; 4.970 ; 4.970 ;
+; clock_source ; ddr_dq[13]        ; 4.954 ; 4.954 ; 4.954 ; 4.954 ;
+; clock_source ; ddr_dq[14]        ; 4.964 ; 4.964 ; 4.964 ; 4.964 ;
+; clock_source ; ddr_dq[15]        ; 5.337 ; 5.337 ; 5.337 ; 5.337 ;
+; clock_source ; ddr_dqs[0]        ; 4.944 ; 4.944 ; 4.944 ; 4.944 ;
+; clock_source ; ddr_dqs[1]        ; 5.366 ; 5.366 ; 5.366 ; 5.366 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------+
+; Minimum Progagation Delay                                        ;
++--------------+-------------------+-------+-------+-------+-------+
+; Input Port   ; Output Port       ; RR    ; RF    ; FR    ; FF    ;
++--------------+-------------------+-------+-------+-------+-------+
+; clock_source ; clk_to_sdram[0]   ; 2.024 ; 2.024 ; 2.024 ; 2.024 ;
+; clock_source ; clk_to_sdram_n[0] ; 1.889 ; 1.889 ; 1.889 ; 1.889 ;
+; clock_source ; ddr_dm[0]         ; 1.926 ; 1.926 ; 1.926 ; 1.926 ;
+; clock_source ; ddr_dm[1]         ; 1.933 ; 1.933 ; 1.933 ; 1.933 ;
+; clock_source ; ddr_dq[0]         ; 1.961 ; 1.961 ; 1.961 ; 1.961 ;
+; clock_source ; ddr_dq[1]         ; 1.957 ; 1.957 ; 1.957 ; 1.957 ;
+; clock_source ; ddr_dq[2]         ; 1.955 ; 1.955 ; 1.955 ; 1.955 ;
+; clock_source ; ddr_dq[3]         ; 1.948 ; 1.948 ; 1.948 ; 1.948 ;
+; clock_source ; ddr_dq[4]         ; 1.929 ; 1.929 ; 1.929 ; 1.929 ;
+; clock_source ; ddr_dq[5]         ; 1.930 ; 1.930 ; 1.930 ; 1.930 ;
+; clock_source ; ddr_dq[6]         ; 1.925 ; 1.925 ; 1.925 ; 1.925 ;
+; clock_source ; ddr_dq[7]         ; 1.960 ; 1.960 ; 1.960 ; 1.960 ;
+; clock_source ; ddr_dq[8]         ; 1.932 ; 1.932 ; 1.932 ; 1.932 ;
+; clock_source ; ddr_dq[9]         ; 1.937 ; 1.937 ; 1.937 ; 1.937 ;
+; clock_source ; ddr_dq[10]        ; 1.934 ; 1.934 ; 1.934 ; 1.934 ;
+; clock_source ; ddr_dq[11]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[12]        ; 1.956 ; 1.956 ; 1.956 ; 1.956 ;
+; clock_source ; ddr_dq[13]        ; 1.943 ; 1.943 ; 1.943 ; 1.943 ;
+; clock_source ; ddr_dq[14]        ; 1.953 ; 1.953 ; 1.953 ; 1.953 ;
+; clock_source ; ddr_dq[15]        ; 2.037 ; 2.037 ; 2.037 ; 2.037 ;
+; clock_source ; ddr_dqs[0]        ; 1.944 ; 1.944 ; 1.944 ; 1.944 ;
+; clock_source ; ddr_dqs[1]        ; 2.055 ; 2.055 ; 2.055 ; 2.055 ;
++--------------+-------------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 3     ; 3    ;
+; Unconstrained Input Ports       ; 17    ; 17   ;
+; Unconstrained Input Port Paths  ; 54    ; 54   ;
+; Unconstrained Output Ports      ; 50    ; 50   ;
+; Unconstrained Output Port Paths ; 114   ; 114  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sat Mar  8 16:31:10 2025
+Info: Command: quartus_sta ddr_proj -c ddr_proj
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity GHVD5181
+        Info (332166): set_disable_timing [get_cells -hierarchical AMGP4450_0]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_0]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_1]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_2]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_3]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_4]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_5]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_6]
+        Info (332166): set_disable_timing [get_cells -hierarchical TPOO7242_7]
+        Info (332166): set_disable_timing [get_cells -hierarchical ZNXJ5711_0]
+    Info (332165): Entity pzdyqx_impl
+        Info (332166): set_false_path -from [get_keepers {altera_reserved_tdi}] -to [get_keepers {pzdyqx*}]
+    Info (332165): Entity sld_jtag_hub
+        Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'ddr_prj.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (332060): Node: clock_source was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: ddr_dqs[0] was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: ddr_dqs[1] was determined to be a clock but was found without an associated clock assignment.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: g_cyclonepll_ddr_pll_inst|altpll_component|pll|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 40.000
+    Warning (332056): Node: g_cyclonepll_ddr_pll_inst|altpll_component|pll|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 40.000
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 97.223
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    97.223         0.000 altera_reserved_tck 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Warning (332060): Node: clock_source was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: ddr_dqs[0] was determined to be a clock but was found without an associated clock assignment.
+Warning (332060): Node: ddr_dqs[1] was determined to be a clock but was found without an associated clock assignment.
+Warning (332056): PLL cross checking found inconsistent PLL clock settings:
+    Warning (332056): Node: g_cyclonepll_ddr_pll_inst|altpll_component|pll|clk[0] was found missing 1 generated clock that corresponds to a base clock with a period of: 40.000
+    Warning (332056): Node: g_cyclonepll_ddr_pll_inst|altpll_component|pll|clk[1] was found missing 1 generated clock that corresponds to a base clock with a period of: 40.000
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 97.778
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    97.778         0.000 altera_reserved_tck 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 14 warnings
+    Info: Peak virtual memory: 510 megabytes
+    Info: Processing ended: Sat Mar  8 16:31:11 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

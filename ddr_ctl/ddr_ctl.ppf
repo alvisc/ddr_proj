@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<pinplan variation_name="ddr_ctl" megafunction_name="DDR SDRAM Controller" default_scope="internal" specifies="all_ports" >
+<global>
+<pin name="clk" direction="input" username="clk"/>
+<pin name="addrcmd_clk" direction="input" username="addrcmd_clk"/>
+<pin name="write_clk" direction="input" username="write_clk"/>
+<pin name="clk" direction="input" username="clk"/>
+<pin name="reset_n" direction="input" username="reset_n"/>
+<pin name="write_clk" direction="input" username="write_clk"/>
+<pin name="local_read_req" direction="input" username="local_read_req"/>
+<pin name="local_write_req" direction="input" username="local_write_req"/>
+<pin name="local_addr[22..0]"  direction="input" username="local_addr[22..0]"/>
+<pin name="local_addr[22]"  direction="input" username="local_addr[22]"/>
+<pin name="local_addr[21]"  direction="input" username="local_addr[21]"/>
+<pin name="local_addr[20]"  direction="input" username="local_addr[20]"/>
+<pin name="local_addr[19]"  direction="input" username="local_addr[19]"/>
+<pin name="local_addr[18]"  direction="input" username="local_addr[18]"/>
+<pin name="local_addr[17]"  direction="input" username="local_addr[17]"/>
+<pin name="local_addr[16]"  direction="input" username="local_addr[16]"/>
+<pin name="local_addr[15]"  direction="input" username="local_addr[15]"/>
+<pin name="local_addr[14]"  direction="input" username="local_addr[14]"/>
+<pin name="local_addr[13]"  direction="input" username="local_addr[13]"/>
+<pin name="local_addr[12]"  direction="input" username="local_addr[12]"/>
+<pin name="local_addr[11]"  direction="input" username="local_addr[11]"/>
+<pin name="local_addr[10]"  direction="input" username="local_addr[10]"/>
+<pin name="local_addr[9]"  direction="input" username="local_addr[9]"/>
+<pin name="local_addr[8]"  direction="input" username="local_addr[8]"/>
+<pin name="local_addr[7]"  direction="input" username="local_addr[7]"/>
+<pin name="local_addr[6]"  direction="input" username="local_addr[6]"/>
+<pin name="local_addr[5]"  direction="input" username="local_addr[5]"/>
+<pin name="local_addr[4]"  direction="input" username="local_addr[4]"/>
+<pin name="local_addr[3]"  direction="input" username="local_addr[3]"/>
+<pin name="local_addr[2]"  direction="input" username="local_addr[2]"/>
+<pin name="local_addr[1]"  direction="input" username="local_addr[1]"/>
+<pin name="local_addr[0]"  direction="input" username="local_addr[0]"/>
+<pin name="local_wdata[31..0]"  direction="input" username="local_wdata[31..0]"/>
+<pin name="local_wdata[31]"  direction="input" username="local_wdata[31]"/>
+<pin name="local_wdata[30]"  direction="input" username="local_wdata[30]"/>
+<pin name="local_wdata[29]"  direction="input" username="local_wdata[29]"/>
+<pin name="local_wdata[28]"  direction="input" username="local_wdata[28]"/>
+<pin name="local_wdata[27]"  direction="input" username="local_wdata[27]"/>
+<pin name="local_wdata[26]"  direction="input" username="local_wdata[26]"/>
+<pin name="local_wdata[25]"  direction="input" username="local_wdata[25]"/>
+<pin name="local_wdata[24]"  direction="input" username="local_wdata[24]"/>
+<pin name="local_wdata[23]"  direction="input" username="local_wdata[23]"/>
+<pin name="local_wdata[22]"  direction="input" username="local_wdata[22]"/>
+<pin name="local_wdata[21]"  direction="input" username="local_wdata[21]"/>
+<pin name="local_wdata[20]"  direction="input" username="local_wdata[20]"/>
+<pin name="local_wdata[19]"  direction="input" username="local_wdata[19]"/>
+<pin name="local_wdata[18]"  direction="input" username="local_wdata[18]"/>
+<pin name="local_wdata[17]"  direction="input" username="local_wdata[17]"/>
+<pin name="local_wdata[16]"  direction="input" username="local_wdata[16]"/>
+<pin name="local_wdata[15]"  direction="input" username="local_wdata[15]"/>
+<pin name="local_wdata[14]"  direction="input" username="local_wdata[14]"/>
+<pin name="local_wdata[13]"  direction="input" username="local_wdata[13]"/>
+<pin name="local_wdata[12]"  direction="input" username="local_wdata[12]"/>
+<pin name="local_wdata[11]"  direction="input" username="local_wdata[11]"/>
+<pin name="local_wdata[10]"  direction="input" username="local_wdata[10]"/>
+<pin name="local_wdata[9]"  direction="input" username="local_wdata[9]"/>
+<pin name="local_wdata[8]"  direction="input" username="local_wdata[8]"/>
+<pin name="local_wdata[7]"  direction="input" username="local_wdata[7]"/>
+<pin name="local_wdata[6]"  direction="input" username="local_wdata[6]"/>
+<pin name="local_wdata[5]"  direction="input" username="local_wdata[5]"/>
+<pin name="local_wdata[4]"  direction="input" username="local_wdata[4]"/>
+<pin name="local_wdata[3]"  direction="input" username="local_wdata[3]"/>
+<pin name="local_wdata[2]"  direction="input" username="local_wdata[2]"/>
+<pin name="local_wdata[1]"  direction="input" username="local_wdata[1]"/>
+<pin name="local_wdata[0]"  direction="input" username="local_wdata[0]"/>
+<pin name="local_be[3..0]"  direction="input" username="local_be[3..0]"/>
+<pin name="local_be[3]"  direction="input" username="local_be[3]"/>
+<pin name="local_be[2]"  direction="input" username="local_be[2]"/>
+<pin name="local_be[1]"  direction="input" username="local_be[1]"/>
+<pin name="local_be[0]"  direction="input" username="local_be[0]"/>
+<pin name="local_ready" direction="output" username="local_ready"/>
+<pin name="local_rdata[31..0]"  direction="output" username="local_rdata[31..0]"/>
+<pin name="local_rdata[31]"  direction="output" username="local_rdata[31]"/>
+<pin name="local_rdata[30]"  direction="output" username="local_rdata[30]"/>
+<pin name="local_rdata[29]"  direction="output" username="local_rdata[29]"/>
+<pin name="local_rdata[28]"  direction="output" username="local_rdata[28]"/>
+<pin name="local_rdata[27]"  direction="output" username="local_rdata[27]"/>
+<pin name="local_rdata[26]"  direction="output" username="local_rdata[26]"/>
+<pin name="local_rdata[25]"  direction="output" username="local_rdata[25]"/>
+<pin name="local_rdata[24]"  direction="output" username="local_rdata[24]"/>
+<pin name="local_rdata[23]"  direction="output" username="local_rdata[23]"/>
+<pin name="local_rdata[22]"  direction="output" username="local_rdata[22]"/>
+<pin name="local_rdata[21]"  direction="output" username="local_rdata[21]"/>
+<pin name="local_rdata[20]"  direction="output" username="local_rdata[20]"/>
+<pin name="local_rdata[19]"  direction="output" username="local_rdata[19]"/>
+<pin name="local_rdata[18]"  direction="output" username="local_rdata[18]"/>
+<pin name="local_rdata[17]"  direction="output" username="local_rdata[17]"/>
+<pin name="local_rdata[16]"  direction="output" username="local_rdata[16]"/>
+<pin name="local_rdata[15]"  direction="output" username="local_rdata[15]"/>
+<pin name="local_rdata[14]"  direction="output" username="local_rdata[14]"/>
+<pin name="local_rdata[13]"  direction="output" username="local_rdata[13]"/>
+<pin name="local_rdata[12]"  direction="output" username="local_rdata[12]"/>
+<pin name="local_rdata[11]"  direction="output" username="local_rdata[11]"/>
+<pin name="local_rdata[10]"  direction="output" username="local_rdata[10]"/>
+<pin name="local_rdata[9]"  direction="output" username="local_rdata[9]"/>
+<pin name="local_rdata[8]"  direction="output" username="local_rdata[8]"/>
+<pin name="local_rdata[7]"  direction="output" username="local_rdata[7]"/>
+<pin name="local_rdata[6]"  direction="output" username="local_rdata[6]"/>
+<pin name="local_rdata[5]"  direction="output" username="local_rdata[5]"/>
+<pin name="local_rdata[4]"  direction="output" username="local_rdata[4]"/>
+<pin name="local_rdata[3]"  direction="output" username="local_rdata[3]"/>
+<pin name="local_rdata[2]"  direction="output" username="local_rdata[2]"/>
+<pin name="local_rdata[1]"  direction="output" username="local_rdata[1]"/>
+<pin name="local_rdata[0]"  direction="output" username="local_rdata[0]"/>
+<pin name="local_rdata_valid" direction="output" username="local_rdata_valid"/>
+<pin name="local_rdvalid_in_n" direction="output" username="local_rdvalid_in_n"/>
+<pin name="local_init_done" direction="output" username="local_init_done"/>
+<pin name="local_refresh_ack" direction="output" username="local_refresh_ack"/>
+<pin name="local_wdata_req" direction="output" username="local_wdata_req"/>
+<pin name="clk_to_sdram" direction="output" username="clk_to_sdram"/>
+<pin name="clk_to_sdram_n" direction="output" username="clk_to_sdram_n"/>
+<pin name="ddr_cs_n" direction="output" username="ddr_cs_n"/>
+<pin name="ddr_cke" direction="output" username="ddr_cke"/>
+<pin name="ddr_a[12..0]"  direction="output" username="ddr_a[12..0]"/>
+<pin name="ddr_a[12]"  direction="output" username="ddr_a[12]"/>
+<pin name="ddr_a[11]"  direction="output" username="ddr_a[11]"/>
+<pin name="ddr_a[10]"  direction="output" username="ddr_a[10]"/>
+<pin name="ddr_a[9]"  direction="output" username="ddr_a[9]"/>
+<pin name="ddr_a[8]"  direction="output" username="ddr_a[8]"/>
+<pin name="ddr_a[7]"  direction="output" username="ddr_a[7]"/>
+<pin name="ddr_a[6]"  direction="output" username="ddr_a[6]"/>
+<pin name="ddr_a[5]"  direction="output" username="ddr_a[5]"/>
+<pin name="ddr_a[4]"  direction="output" username="ddr_a[4]"/>
+<pin name="ddr_a[3]"  direction="output" username="ddr_a[3]"/>
+<pin name="ddr_a[2]"  direction="output" username="ddr_a[2]"/>
+<pin name="ddr_a[1]"  direction="output" username="ddr_a[1]"/>
+<pin name="ddr_a[0]"  direction="output" username="ddr_a[0]"/>
+<pin name="ddr_ba[1..0]"  direction="output" username="ddr_ba[1..0]"/>
+<pin name="ddr_ba[1]"  direction="output" username="ddr_ba[1]"/>
+<pin name="ddr_ba[0]"  direction="output" username="ddr_ba[0]"/>
+<pin name="ddr_ras_n" direction="output" username="ddr_ras_n"/>
+<pin name="ddr_cas_n" direction="output" username="ddr_cas_n"/>
+<pin name="ddr_we_n" direction="output" username="ddr_we_n"/>
+<pin name="ddr_dq[15..0]"  direction="bidir" username="ddr_dq[15..0]"/>
+<pin name="ddr_dq[15]"  direction="bidir" username="ddr_dq[15]"/>
+<pin name="ddr_dq[14]"  direction="bidir" username="ddr_dq[14]"/>
+<pin name="ddr_dq[13]"  direction="bidir" username="ddr_dq[13]"/>
+<pin name="ddr_dq[12]"  direction="bidir" username="ddr_dq[12]"/>
+<pin name="ddr_dq[11]"  direction="bidir" username="ddr_dq[11]"/>
+<pin name="ddr_dq[10]"  direction="bidir" username="ddr_dq[10]"/>
+<pin name="ddr_dq[9]"  direction="bidir" username="ddr_dq[9]"/>
+<pin name="ddr_dq[8]"  direction="bidir" username="ddr_dq[8]"/>
+<pin name="ddr_dq[7]"  direction="bidir" username="ddr_dq[7]"/>
+<pin name="ddr_dq[6]"  direction="bidir" username="ddr_dq[6]"/>
+<pin name="ddr_dq[5]"  direction="bidir" username="ddr_dq[5]"/>
+<pin name="ddr_dq[4]"  direction="bidir" username="ddr_dq[4]"/>
+<pin name="ddr_dq[3]"  direction="bidir" username="ddr_dq[3]"/>
+<pin name="ddr_dq[2]"  direction="bidir" username="ddr_dq[2]"/>
+<pin name="ddr_dq[1]"  direction="bidir" username="ddr_dq[1]"/>
+<pin name="ddr_dq[0]"  direction="bidir" username="ddr_dq[0]"/>
+<pin name="ddr_dqs[1..0]"  direction="bidir" username="ddr_dqs[1..0]"/>
+<pin name="ddr_dqs[1]"  direction="bidir" username="ddr_dqs[1]"/>
+<pin name="ddr_dqs[0]"  direction="bidir" username="ddr_dqs[0]"/>
+<pin name="ddr_dm[1..0]"  direction="output" username="ddr_dm[1..0]"/>
+<pin name="ddr_dm[1]"  direction="output" username="ddr_dm[1]"/>
+<pin name="ddr_dm[0]"  direction="output" username="ddr_dm[0]"/>
+<pin name="ddr_ras_n" username="ddr_ras_n" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_cas_n" username="ddr_cas_n" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_we_n" username="ddr_we_n" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_cke[0]" username="ddr_cke[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[0]" username="ddr_a[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[1]" username="ddr_a[1]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[2]" username="ddr_a[2]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[3]" username="ddr_a[3]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[4]" username="ddr_a[4]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[5]" username="ddr_a[5]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[6]" username="ddr_a[6]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[7]" username="ddr_a[7]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[8]" username="ddr_a[8]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[9]" username="ddr_a[9]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[10]" username="ddr_a[10]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[11]" username="ddr_a[11]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_a[12]" username="ddr_a[12]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_ba[0]" username="ddr_ba[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_ba[1]" username="ddr_ba[1]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_cs_n[0]" username="ddr_cs_n[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="ddr_dm[0]" username="ddr_dm[0]" io_standard="SSTL-2 CLASS I" location="Pin_E14" direction="output" scope="external" />
+<pin name="ddr_dm[1]" username="ddr_dm[1]" io_standard="SSTL-2 CLASS I" location="Pin_A14" direction="output" scope="external" />
+<pin name="ddr_dq[0]" username="ddr_dq[0]" io_standard="SSTL-2 CLASS I" location="Pin_B20" direction="bidir" scope="external" />
+<pin name="ddr_dq[1]" username="ddr_dq[1]" io_standard="SSTL-2 CLASS I" location="Pin_A20" direction="bidir" scope="external" />
+<pin name="ddr_dq[2]" username="ddr_dq[2]" io_standard="SSTL-2 CLASS I" location="Pin_B19" direction="bidir" scope="external" />
+<pin name="ddr_dq[3]" username="ddr_dq[3]" io_standard="SSTL-2 CLASS I" location="Pin_A19" direction="bidir" scope="external" />
+<pin name="ddr_dq[4]" username="ddr_dq[4]" io_standard="SSTL-2 CLASS I" location="Pin_D16" direction="bidir" scope="external" />
+<pin name="ddr_dq[5]" username="ddr_dq[5]" io_standard="SSTL-2 CLASS I" location="Pin_E15" direction="bidir" scope="external" />
+<pin name="ddr_dq[6]" username="ddr_dq[6]" io_standard="SSTL-2 CLASS I" location="Pin_D15" direction="bidir" scope="external" />
+<pin name="ddr_dq[7]" username="ddr_dq[7]" io_standard="SSTL-2 CLASS I" location="Pin_C14" direction="bidir" scope="external" />
+<pin name="ddr_dq[8]" username="ddr_dq[8]" io_standard="SSTL-2 CLASS I" location="Pin_D14" direction="bidir" scope="external" />
+<pin name="ddr_dq[9]" username="ddr_dq[9]" io_standard="SSTL-2 CLASS I" location="Pin_F14" direction="bidir" scope="external" />
+<pin name="ddr_dq[10]" username="ddr_dq[10]" io_standard="SSTL-2 CLASS I" location="Pin_F13" direction="bidir" scope="external" />
+<pin name="ddr_dq[11]" username="ddr_dq[11]" io_standard="SSTL-2 CLASS I" location="Pin_B16" direction="bidir" scope="external" />
+<pin name="ddr_dq[12]" username="ddr_dq[12]" io_standard="SSTL-2 CLASS I" location="Pin_A16" direction="bidir" scope="external" />
+<pin name="ddr_dq[13]" username="ddr_dq[13]" io_standard="SSTL-2 CLASS I" location="Pin_B15" direction="bidir" scope="external" />
+<pin name="ddr_dq[14]" username="ddr_dq[14]" io_standard="SSTL-2 CLASS I" location="Pin_A15" direction="bidir" scope="external" />
+<pin name="ddr_dq[15]" username="ddr_dq[15]" io_standard="SSTL-2 CLASS I" location="Pin_F12" direction="bidir" scope="external" />
+<pin name="ddr_dqs[0]" username="ddr_dqs[0]" io_standard="SSTL-2 CLASS I" location="Pin_A17" direction="bidir" scope="external" />
+<pin name="ddr_dqs[1]" username="ddr_dqs[1]" io_standard="SSTL-2 CLASS I" location="Pin_A13" direction="bidir" scope="external" />
+<pin name="clk_to_sdram[0]" username="clk_to_sdram[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+<pin name="clk_to_sdram_n[0]" username="clk_to_sdram_n[0]" io_standard="SSTL-2 CLASS I" direction="output" scope="external" />
+</global>
+</pinplan>

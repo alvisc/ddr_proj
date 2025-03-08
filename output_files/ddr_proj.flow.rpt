@@ -1,0 +1,157 @@
+Flow report for ddr_proj
+Sat Mar  8 16:31:11 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Sat Mar  8 16:31:08 2025           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; ddr_proj                                        ;
+; Top-level Entity Name              ; ddr_proj                                        ;
+; Family                             ; Cyclone II                                      ;
+; Device                             ; EP2C35F484C8                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 1,360 / 33,216 ( 4 % )                          ;
+;     Total combinational functions  ; 1,011 / 33,216 ( 3 % )                          ;
+;     Dedicated logic registers      ; 927 / 33,216 ( 3 % )                            ;
+; Total registers                    ; 947                                             ;
+; Total pins                         ; 50 / 322 ( 16 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 483,840 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                                  ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/08/2025 16:30:39 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ddr_proj            ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                               ;
++-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                                         ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 158445889391919.174144783901472                               ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; DDR SDRAM Controller                                          ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                                          ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                            ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_tb_functions.vhd ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_controller.vhd   ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_input_buf.vhd    ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/example_lfsr8.v          ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/example_lfsr8.vhd        ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_init.vhd         ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_timers.vhd       ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr2_init.vhd        ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_avalon_if.vhd    ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_functions.vhd    ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_sdram_controller-library/auk_ddr_bank_details.vhd ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl.vhd                                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl.cmp                                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl.bsf                                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_auk_ddr_dqs_group.vhd                         ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_auk_ddr_clk_gen.vhd                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_auk_ddr_datapath.vhd                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_auk_ddr_sdram.vhd                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_proj.vhd                                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/testbench/ddr_proj_tb.vhd                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/add_constraints_for_ddr_ctl.tcl                       ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/verify_timing_for_ddr_ctl.tcl                         ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/constraints_out.txt                                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_ddr_settings.txt                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl_pre_compile_ddr_timing_summary.txt            ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl.qip                                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; ddr_ctl/ddr_ctl.html                                          ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                                                      ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                         ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                        ; --            ; --          ; Top        ;
+; POST_FLOW_SCRIPT_FILE               ; quartus_sh:auto_verify_ddr_timing.tcl                         ; --            ; --          ; --         ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                           ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                         ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                  ; --            ; --          ; --         ;
+; SEARCH_PATH                         ; ./                                                            ; --            ; --          ; --         ;
+; SEARCH_PATH                         ; ddr_ctl/.                                                     ; --            ; --          ; --         ;
+; SEARCH_PATH                         ; ddr_ctl/ddr_sdram_controller-library                          ; --            ; --          ; --         ;
++-------------------------------------+---------------------------------------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:08     ; 1.0                     ; 665 MB              ; 00:00:08                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 717 MB              ; 00:00:12                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 542 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 510 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:24     ; --                      ; --                  ; 00:00:24                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                               ;
++---------------------------+------------------+------------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name          ; OS Version ; Processor type ;
++---------------------------+------------------+------------------+------------+----------------+
+; Analysis & Synthesis      ; D757             ; Debian GNU/Linux ; 11         ; x86_64         ;
+; Fitter                    ; D757             ; Debian GNU/Linux ; 11         ; x86_64         ;
+; Assembler                 ; D757             ; Debian GNU/Linux ; 11         ; x86_64         ;
+; TimeQuest Timing Analyzer ; D757             ; Debian GNU/Linux ; 11         ; x86_64         ;
++---------------------------+------------------+------------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ddr_proj -c ddr_proj
+quartus_fit --read_settings_files=off --write_settings_files=off ddr_proj -c ddr_proj
+quartus_asm --read_settings_files=off --write_settings_files=off ddr_proj -c ddr_proj
+quartus_sta ddr_proj -c ddr_proj
+
+
+
