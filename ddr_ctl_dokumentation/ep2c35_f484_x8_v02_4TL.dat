@@ -1,12 +1,15 @@
+-------------------------------------------------------------
+--- copied from 2T
+
 group 4TL
 
-	DQS     DQS	  	A17 	17 	0 -1
-	DQ0     DQ0	  	B20 	17 	1 -1
-	DQ1     DQ1	  	A20 	17 	2 -1
-	DQ2     DQ2	  	B19 	15 	0 -1
-	DQ3     DQ3	  	A19 	15 	1 -1
-	DQ4     DQ4	  	D16 	15 	2 0
-	DQ5     DQ5	  	E15 	15 	3 -1
-	DQ6     DQ6	  	D15 	12 	0 -1
-	DQ7     DQ7	  	C14 	12 	1 -1
-	DM      DM	  	E14	    4 	1 -1
+	DQS     DQS	  	A17 	47 	0 -1
+	DQ0     DQ0	  	B20 	64 	0 -1
+	DQ1     DQ1	  	A20 	64 	1 -1
+	DQ2     DQ2	  	B19 	62 	0 -1
+	DQ3     DQ3	  	A19 	62 	1 -1
+	DQ4     DQ4	  	D16 	56 	0 0
+	DQ5     DQ5	  	E15 	56 	1 -1
+	DQ6     DQ6	  	D15 	51 	0 -1
+	DQ7     DQ7	  	C14 	51 	1 -1
+	DM      DM	  	E14 	45 	0 -1
