@@ -6,12 +6,6 @@ english version below
 Siehe [memory_types.dat](./ddr_ctl_dokumentation/memory_types.dat) <br>
 Alternativ: Micron MT46V16M16TG-5B verwenden. 
 
-* dq[15:0] sind an Bank 4 angeschlossen, das lässt sich aber nicht in Megawizard auswählen.
-Deswegen eine Bank 4TL zu altera/13.0sp1/ip/altera/ddr_ddr2_sdram/constraints/dat/ep2c35_f484_x8_v02.dat hinzufügen.<br>
-Siehe [ep2c35_f484_x8_v02_4TL.dat](./ddr_ctl_dokumentation/ep2c35_f484_x8_v02_4TL.dat)<br>
-In altera/13.0sp1/ip/altera/ddr_ddr2_sdram/constraints/dat/ep2c35_f484_x8_floorplan_v00.dat "4TL" zu bytegroup_name hinzufügen:<br>
-![floorplan.png](./ddr_ctl_dokumentation/floorplan.png)<br>
-
 # Projekt erstellen
 Folge Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver]<br>
 * Erstelle Quartus Project<br>
@@ -58,12 +52,6 @@ Auf OK klicken<br>
 * Add Micron MT46V16M16TG-6T to altera/13.0sp1/ip/altera/ddr_ddr2_sdram/constraints/memory_types.dat.<br>
 See [memory_types.dat](./ddr_ctl_dokumentation/memory_types.dat) <br>
 Or use Micron MT46V16M16TG-5B. 
-
-* dq[15:0] are connected to bank 4, but you can not select these in Megawizard.
-Add bank 4TL to altera/13.0sp1/ip/altera/ddr_ddr2_sdram/constraints/dat/ep2c35_f484_x8_v02.dat.<br>
-See [ep2c35_f484_x8_v02_4TL.dat](./ddr_ctl_dokumentation/ep2c35_f484_x8_v02_4TL.dat)<br>
-Add "4TL" to bytegroup_name in altera/13.0sp1/ip/altera/ddr_ddr2_sdram/constraints/dat/ep2c35_f484_x8_floorplan_v00.dat:<br>
-![floorplan.png](./ddr_ctl_dokumentation/floorplan.png)<br>
 
 # Create project
 Just follow Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver]<br>
