@@ -38,6 +38,13 @@ Frequenz auf 25 Mhz stellen→Finish→Finish<br>
 ![ddr_ctl_pll_1.png](./ddr_ctl_dokumentation/ddr_ctl_pll_1.png)<br>
 * Pins einstellen<br>
 Tools→Tcl Scripts… → ddr_proj.tcl<br>
+
+# SignalTap<br>
+Für SignalTap TalkBack aktivieren<br>
+Tools→Options→Internet Connectivity→TalkBack Options<br>
+Haken bei "Enable sending TalkBack data to Altera", auf OK klicken<br>
+Auf OK klicken<br>
+
 # Literatur
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
 * Altera Application Note 380 Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver
@@ -84,6 +91,14 @@ Set frequency 25 Mhz→Finish→Finish<br>
 ![ddr_ctl_pll_1.png](./ddr_ctl_dokumentation/ddr_ctl_pll_1.png)<br>
 * Set Pins<br>
 Tools→Tcl Scripts… → ddr_proj.tcl<br>
+
+
+# SignalTap<br>
+Aktivate TalkBack for SignalTap<br>
+Tools→Options→Internet Connectivity→TalkBack Options<br>
+Check "Enable sending TalkBack data to Altera", click OK<br>
+Click OK<br>
+
 # Literature
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
 * Altera Application Note 380 Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver
