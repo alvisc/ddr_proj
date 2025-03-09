@@ -20,7 +20,7 @@ Folge Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Hardware
 ![ddr_ctl_6.png](./ddr_ctl_dokumentation/ddr_ctl_6.png)<br>
 
 * Constraints <br>
-![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png?)<br>
+![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br>
 
 * ddr_proj.vhd zum Projekt hizufügen <br>
 ![ddr_prj_vhd.png](./ddr_ctl_dokumentation/ddr_prj_vhd.png)<br>
@@ -67,7 +67,7 @@ Just follow Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Ha
 ![ddr_ctl_6.png](./ddr_ctl_dokumentation/ddr_ctl_6.png)<br>
 
 * Constraints <br>
-![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png?)<br>
+![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br>
 
 * Add ddr_proj.vhd to project<br>
 ![ddr_prj_vhd.png](./ddr_ctl_dokumentation/ddr_prj_vhd.png)<br>
