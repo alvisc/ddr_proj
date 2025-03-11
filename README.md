@@ -1,4 +1,4 @@
-# DDR Controller for Cyclone II Cisco-HWIC-3G board
+# DDR Controller for Cyclone II <br> (Cisco-HWIC-3G board)<br>
 english version below
 
 # Vorbereitung
