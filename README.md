@@ -34,10 +34,14 @@ Frequenz auf 25 Mhz stellen→Finish→Finish<br>
 Tools→Tcl Scripts… → ddr_proj.tcl<br>
 
 # SignalTap<br>
+![signaltap.png](./ddr_ctl_dokumentation/signaltap.png)<br>
+Signal pnf_per_byte sollte `Fh` sein.<br>
+
 Für SignalTap TalkBack aktivieren<br>
 Tools→Options→Internet Connectivity→TalkBack Options<br>
 Haken bei "Enable sending TalkBack data to Altera", auf OK klicken<br>
 Auf OK klicken<br>
+
 
 # Literatur
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
@@ -82,10 +86,15 @@ Tools→Tcl Scripts… → ddr_proj.tcl<br>
 
 
 # SignalTap<br>
+
+![signaltap.png](./ddr_ctl_dokumentation/signaltap.png)<br>
+Signal pnf_per_byte should be `Fh`.<br>
+
 Aktivate TalkBack for SignalTap<br>
 Tools→Options→Internet Connectivity→TalkBack Options<br>
 Check "Enable sending TalkBack data to Altera", click OK<br>
 Click OK<br>
+Auf OK klicken<br>
 
 # Literature
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
