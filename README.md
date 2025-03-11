@@ -20,7 +20,9 @@ Folge Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Hardware
 ![ddr_ctl_6.png](./ddr_ctl_dokumentation/ddr_ctl_6.png)<br>
 
 * Constraints <br>
-![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br>
+![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br><br>
+Verstehe die Benamung `4T` und `2T` in Constraints nicht, dq[15:0] sind in Bank 4.<br>
+![ep2c35f484c8.png](./ddr_ctl_dokumentation/ep2c35f484c8.png)<br>
 
 * ddr_proj.vhd zum Projekt hizufügen <br>
 ![ddr_prj_vhd.png](./ddr_ctl_dokumentation/ddr_prj_vhd.png)<br>
@@ -72,7 +74,9 @@ Just follow Altera Application Note 380 [Test DDR or DDR2 SDRAM Interfaces on Ha
 ![ddr_ctl_6.png](./ddr_ctl_dokumentation/ddr_ctl_6.png)<br>
 
 * Constraints <br>
-![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br>
+![ddr_ctl_constraints.png](./ddr_ctl_dokumentation/ddr_ctl_constraints.png)<br><br>
+I don't understand the naming `4T` and `2T` in Constraints, dq[15:0] are in bank 4.<br>
+![ep2c35f484c8.png](./ddr_ctl_dokumentation/ep2c35f484c8.png)<br>
 
 * Add ddr_proj.vhd to project<br>
 ![ddr_prj_vhd.png](./ddr_ctl_dokumentation/ddr_prj_vhd.png)<br>
