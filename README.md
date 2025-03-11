@@ -47,6 +47,7 @@ Auf OK klicken<br>
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
 * Altera Application Note 380 Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver
 * Altera Application Note 361 Interfacing DDR & DDR2 SDRAM with Cyclone II Devices
+* Altera DDR and DDR2 SDRAM Controller Compiler User Guide
 * Altera Cyclone II Device Handbook, Volume 1 Chapter 9. External Memory Interfaces
 
 
@@ -100,5 +101,6 @@ Auf OK klicken<br>
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
 * Altera Application Note 380 Test DDR or DDR2 SDRAM Interfaces on Hardware Using the Example Driver
 * Altera Application Note 361 Interfacing DDR & DDR2 SDRAM with Cyclone II Devices
+* Altera DDR and DDR2 SDRAM Controller Compiler User Guide
 * Altera Cyclone II Device Handbook, Volume 1 Chapter 9. External Memory Interfaces
 
