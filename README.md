@@ -99,7 +99,6 @@ Aktivate TalkBack for SignalTap<br>
 Tools→Options→Internet Connectivity→TalkBack Options<br>
 Check "Enable sending TalkBack data to Altera", click OK<br>
 Click OK<br>
-Auf OK klicken<br>
 
 # Literature
 * Datenblatt Micron MT46V16M16 – 4 Meg x 16 x 4 banks
